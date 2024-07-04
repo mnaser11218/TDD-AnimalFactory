@@ -7,6 +7,9 @@ import rocks.zipcodewilmington.animals.Cat;
  * @author leon on 4/19/18.
  */
 public class CatHouse {
+    public CatHouse() {
+    }
+
     private static AnimalWarehouse<Cat> catHouse = new AnimalWarehouse<>();
 
     public static void add(Cat cat) {
